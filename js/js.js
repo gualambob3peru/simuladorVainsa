@@ -4,6 +4,7 @@ $(function(){
 
         $(".filaImagenes").css("display","none");
         $(".imagenes" + valor).css("display","block");
+        
     });
 
     $(".divProducto").click(function(){
@@ -12,6 +13,9 @@ $(function(){
         
             console.log(numero,grupo);
         $(".producto"+grupo).css("display","none");
-        $("#producto"+numero).css("display","block");
+        $("#producto"+numero).fadeIn();
+
+        $(".imagenes .divImg").css("border-color","#ddd");
+        $(this).css("border-color","#19b2fb");
     });
 });

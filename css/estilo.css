@@ -39,7 +39,7 @@ body{
     height: 80px;
     position: relative;
     border-radius: 500px;
-    border: 1px solid black;
+    border: 1px solid #ddd;
 }
 
 .flotante{
